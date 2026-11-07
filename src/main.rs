@@ -4,7 +4,6 @@ use teloxide::types::BotCommand;
 
 #[tokio::main]
 async fn main() {
-    dotenvy::dotenv().ok();
     env_logger::init();
     log::info!("Starte Tobus-Bot...");
 
